@@ -1,0 +1,9 @@
+@media (max-height:800px) {
+    #smallhead{
+        position: relative;
+    }
+    #herofooter{
+        position: relative;
+        bottom: 0%;
+    }
+}

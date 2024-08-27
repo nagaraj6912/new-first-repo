@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}#main{
+    width: 100%;
+}#minicircle{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    mix-blend-mode:difference;
+    z-index: 9999;
+    transition: all cubic-bezier(0.19,1,0.22,1);
+    transition-duration: 0.25s;
+
+}
+#hero{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    position: relative;
+}
+#nav{
+    width: 100%;
+    padding: 30px 30px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    overflow: hidden;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: 9999;
+}#nav a{
+    text-decoration: none;
+    color: #fff;
+}#nav h4{
+    text-transform: uppercase;
+}.prod{
+    opacity: 0.6;
+}.heading{
+    font-size: 5.5vw;
+    padding-top: 180px;
+    line-height: 0.9;
+    margin-left: 4vw;
+    width: fit-content;
+}.design{
+    margin-left:12vw;
+}.design h5{
+    font-size: 12px;
+    text-align: end;
+    line-height: 3;
+}#smallhead{
+    margin-top: 100px;
+    padding-right: 50px;
+}
+#smallhead h5{
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: .5vw;
+    font-size: 1.2vw;
+    text-align: right;
+}#herofooter{
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 4%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}#herofooter #iconset{
+    padding-right: 2vw;
+    display: flex;
+    gap: 5px;
+    overflow: hidden;
+
+}.bod{
+    transform: translateY(100%);
+}#iconset .bod{
+    cursor: pointer;
+    padding-top: 5px;
+    display: flex;
+}#iconset .circle:hover{
+    background-color: #000000;
+    color: #fff;
+}
+.hero{
+    width: 100%;
+    overflow: hidden;
+}
+.hero a{
+    color: #fff;
+    text-decoration: none;
+}.proud{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(100%);
+}.circle{
+    margin-right: 5px;
+    color: black ;
+    font-weight: 900;
+}
+#herofooter .circle{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #888;
+}#second{
+    padding-top: 200px;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    padding-right: 10vw;
+}.elem{
+    width: 100%;
+
+    padding: 4vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elem h1{
+    text-transform: uppercase;
+    font-size: 7vw;
+    opacity: 0.7;
+    z-index: 9999;
+}#last{
+    border-bottom: 1px solid #888;
+}.elem .img {
+    position: absolute;
+    z-index: 999;
+    height: 20vw;
+    opacity: 0;
+    transition: all linear 0.2s;
+    mix-blend-mode: hard-light;
+    cursor: pointer;
+}#third{
+    width: 100%;
+    padding-top: 100px;
+    color: #fff;
+}#cent{
+    width: 100%;
+    padding-right: 10vw;
+    display: flex;
+    gap: 50px;
+    justify-content: end;
+}#cent img{
+    height: 220px;
+    padding-left: 200px;
+    
+}#cent #text{
+    font-size: 20px;
+    max-width: 480px;
+    font-weight: 200;
+    line-height: 1.5;
+
+}#text h5{
+    font-weight: 400;
+}
+#text h3{
+    font-size: 14px;
+    color: #888;
+    text-transform: uppercase;
+}#text button{
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 50px;
+    padding: 5px 14px;
+    border: 1px solid #fff;
+    color: white;
+    background-color: black;
+}#text button:hover{
+    border: none;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 900;
+}
+#forgot{
+    padding-top: 10vw;
+    padding-left: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}#forgot #change{
+    color: #888;
+}#forget h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}#end{
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2.5%;
+
+}#end a{
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px;
+}#end #date{
+    color: #fff;
+    padding: 0px 40px;
+    display: flex;
+
+}#date h4{
+    padding-right: 20px;
+}.desi{
+    overflow: hidden;
+}.toranto{
+    overflow: hidden;
+}.product{
+    overflow: hidden;
+}#smallhead{
+    overflow: hidden;
+}
+.prod{
+    transform: translateY(100%);
+}

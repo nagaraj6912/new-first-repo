@@ -1,0 +1,6 @@
+1 made an complete site with html and css
+2 add smooth scroling using locomotive
+    a attach scroll css from github
+    b some code from loco github for js file
+    c attach locomotive scroll min js cdn path to js file
+3 add gsap cdn path in js
